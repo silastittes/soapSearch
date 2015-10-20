@@ -10,7 +10,7 @@ Requirements
 
 WARNING
 -------
-This script is intended for small de novo assembly projects that will run very quickly in soap denovo, such as for chloroplast and mitochondria. Whole Eukaryotic genomes will likely take too long too long for thus utility to be very useful. 
+This script is intended for small de novo assembly projects that will run very quickly in soap denovo, such as for chloroplast and mitochondria. Whole Eukaryotic genomes will likely take too long for thus utility to be very useful. 
 
 
 NOTE

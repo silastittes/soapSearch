@@ -4,7 +4,7 @@ d_low=0
 d_high=4
 	
 
-echo -e "command\tK_par\td_par\tN50size\tN50num\tgSize"
+echo -e "command\tK_par\td_par\t\tM_par\tN50size\tN50num\tgSize"
 for (( K=$K_low; K<=$K_high; K++ ))
 do	
 
@@ -30,7 +30,7 @@ do
 				length=`grep -m 1 "Size_withoutN" ${out}.scafStatistics | cut -f2-`
 				
 				#report results
-				echo -e "\"$command\"\t$K\t$d\t$stat\t$length"
+				echo -e "\"$command\"\t$K\t$d\t$M\t$stat\t$length"
 				
 				#clean up
 				rm log err ${out}*

@@ -1,4 +1,4 @@
-K_low=20
+K_low=21
 K_high=63
 d_low=0
 d_high=4
@@ -8,8 +8,8 @@ echo -e "command\tK_par\td_par\tN50size\tN50num\tgSize"
 for (( K=$K_low; K<=$K_high; K++ ))
 do	
 
-	if [ $(($K % 5)) -eq 0 ]
-	then
+	if [ $(($K % 2)) -ne 0 ] #&& [ $(($K % 3)) -eq 0 ]  
+ 	then
 
 		for(( d=$d_low; d<=$d_high; d++ ))
 		do

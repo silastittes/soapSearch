@@ -23,4 +23,4 @@ Command Line Usage
 ```
 bash soapGrid.sh <soap.config> > newfile
 ```
-See [soap denovo documentation] for more information.(http://soap.genomics.org.cn/soapdenovo.html) 
+See [soap denovo documentation](http://soap.genomics.org.cn/soapdenovo.html) for more information.
